@@ -28,7 +28,7 @@ Projeto: Upload de Arquivos com Processamento e Registro do DynamoDB
 2. Um evento no S3 dispara uma Lambda Function escrito em Python. 
 3. A Lambda proessa o conteúdo do arquivo (ex: extrai informações) e gravar esses dados em uma tabela no DynamoDB. 
 4. Outra função Lambda irá consultar a tabela e expor os dados por meio de uma API Gateway.
-   ![diagrama](diagrama.png)
+   ![diagrama](imagens\diagrama.png)
 ### AWS Local com LocalStack: 
 O princiapl objetivo da Localstack é fornecer uma alternativa local para o desenvolvimento, teste e integração de serviços em nuvem, sem a necessidade de acessar a AWS real. 
 Isso permite aos desenvolvedores economizar tempo e custos, especialmente em testes automatizados e em ambientes de integração contínua (CI/CD).
